@@ -109,7 +109,7 @@
         'ReplyRibbon
         '
         Me.Name = "ReplyRibbon"
-        Me.RibbonType = "Microsoft.Outlook.Mail.Read"
+        Me.RibbonType = "Microsoft.Outlook.Mail.Read,Microsoft.Outlook.Mail.Compose"
         Me.Tabs.Add(Me.TabAutoReply)
         Me.TabAutoReply.ResumeLayout(False)
         Me.TabAutoReply.PerformLayout()
